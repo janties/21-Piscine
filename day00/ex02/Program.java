@@ -18,7 +18,7 @@ public class Program
         System.out.format("Count of coffee-request - %d", ctr);
     }
 
-    public static boolean   is_prime(int nb)
+    static boolean   is_prime(int nb)
     {
         int	x = 2;
         if (nb < 2)
@@ -32,7 +32,7 @@ public class Program
         return true;
     }
 
-    public static int sum_digits(int nbr)
+    static int sum_digits(int nbr)
     {
         int sum = 0;
         while(nbr != 0)
