@@ -33,7 +33,7 @@ public class Program
         s.close();
     }
 
-    public static int getMin(Scanner sc)
+    static int getMin(Scanner sc)
     {
         int min = MIN;
         int grade;
@@ -47,7 +47,7 @@ public class Program
         return min;
     }
 
-    public static void displayGraph(int arr[])
+    static void displayGraph(int arr[])
     {
         int j;
         int i = 0;
