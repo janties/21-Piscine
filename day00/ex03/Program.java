@@ -24,7 +24,6 @@ public class Program
             else if(str.equals(WEEK+weekNumb))
             {
                 minGrade = getMin(s);
-                //System.out.print(minGrade);
                 arr[weekNumb-1] = minGrade;
                 weekNumb++;
             }
